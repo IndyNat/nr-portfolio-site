@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@font-face {
+ 	 font-family: "WisdomScript Regular"; src: url("../fonts/wisdomscript-regular.ttf") format("truetype")
+}
+
+/****** GLOBAL*****/
+body {
+	width: 1200px;
+	margin: 20px;
+    color: #2b2b2b;
+	font-family: 'Montserrat', sans-serif;
+	overflow: auto;
+}
+
+.full-width {
+    width: 1200px;
+	float: left;
+}
+.half-width {
+    width: 600px;
+    float: left;	
+}
+.third-width {
+    width: 350px;
+	height: 200px;
+	float: left;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+#columns	{
+   height: 225px;	
+   padding-top: 10px;
+   margin-top: -30px;
+}
+
+a {
+  text-decoration: none;
+  color: #77a466;
+}
+
+
+/****** HEADER *****/
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 25px;
+	color: #77a466;
+	text-transform: uppercase;
+}
+
+#pickings {
+	color: #000000;	
+}
+
+/****** MENU *****/
+
+nav {
+	float: right;
+	padding-bottom: 15px;
+}
+
+nav ul li{
+    display: inline-block;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	color: #77a466;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 25px;
+	margin-left: 10px;
+	
+}
+
+/****** MAIN CONTENT*****/
+
+
+#welcome h2 {
+	color: #77a466;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 25px;	
+	text-transform: uppercase;
+	padding-top: 15px;
+}
+
+#about p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	height: 100px;
+}
+
+#columns h3 {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 25px;	
+	text-transform: uppercase;
+}
+
+.recipe {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 25px;
+}
+
+#specials, #reviews, #contact {
+	border-top: 3px solid #eeeeee;
+	border-bottom: 3px solid #eeeeee;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	padding-bottom: 20px
+}
+
+
+#reviews {
+	padding-right: 40px;
+}
+
+#reviews, #address p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+}
+
+
+#contact, #reviews {
+	border-left: 3px solid #eeeeee;
+	padding-left: 40px;
+}
+
+/****** FOOTER *****/
+
+#footer h2 {
+	color: #000000;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 25px;
+	text-align: center;	
+	text-transform: uppercase;
+	padding-top: 15px;
+}
+
+
+#fresh {
+	font-family: "WisdomScript Regular";
+	font-weight: 900;
+	color: #77a466;
+	font-size: 20px;
+	line-height: 20px;
+	text-transform: lowercase;
+}
+
